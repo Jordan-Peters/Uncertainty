@@ -1,0 +1,5 @@
+@Misc{uncertainty,
+  Author = {Peters, Jordan},
+  Title = {Uncertainty Calculation and Propagation in Python},
+  url = {\url{https://github.com/Jordan-Peters/Uncertainty},
+}
