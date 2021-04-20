@@ -1,9 +1,9 @@
 # Uncertainty
 Uncertainty Calculation and Propagation in Python
 
-Uncertainty.py can be imported as 
+Uncertainty.py can be imported as: 
 
-import uncertainty as u
+	import uncertainty as u
 
 Uncertainty.py depends on the following modules:
 
