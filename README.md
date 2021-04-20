@@ -29,7 +29,7 @@ Where the first argument is all uncertainty values needed for the calculation en
 
 	[90.0, 9.716480844420984]
 
-Where the first value (unc[0]) is the voulme of the irregular rectangular prism and the second value (unc[1]) is the uncertainty associated with the volume calculation. This function allows for upper and lower uncertainty bounds to be different, meaning it is just as easy to calculate the volume of an shanpe with the same dimensions as above but now with uncertainties of +0.1, -0.3 for length +0.2, -0.6 for width, and +0.5, -0.2 for height. 
+Where the first value (unc[0]) is the voulme of the irregular rectangular prism and the second value (unc[1]) is the uncertainty associated with the volume calculation. This function allows for upper and lower uncertainty bounds to be different, meaning it is just as easy to calculate the volume of an shape with the same dimensions as above but now with uncertainties of +0.1, -0.3 for length +0.2, -0.6 for width, and +0.5, -0.2 for height. 
 
 	l, w, h = symbols('l, w, h')  # define needed variables as symbolic variables using Sympy
 	unc = u.uncertainty([[0.1, 0.3], [0.2, 0.6], [0.5, 0.2]], [l, w, h], [3, 5, 6], func='l * w * h')
